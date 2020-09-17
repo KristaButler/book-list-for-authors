@@ -1,0 +1,384 @@
+tr.ui-first {
+  border-top: 1px solid #8C8C8C;
+}
+
+/* Src: https://alecaddd.com/ */
+div.ui-toggle {
+  margin:0;
+  padding:0;
+}
+
+div.ui-toggle input[type='checkbox'] {
+  display: none;
+}
+
+div.ui-toggle input[type='checkbox']:checked + label {
+  border-color:#009EEA;
+  background:#009EEA;
+  -webkit-box-shadow:inset 0 0 0 10px #009EEA;
+  box-shadow:inset 0 0 0 10px #009EEA
+}
+
+div.ui-toggle input[type='checkbox']:checked + label > div
+{
+  margin-left:20px
+}
+
+div.ui-toggle label {
+  -webkit-transition:all 200ms ease;
+  transition:all 200ms ease;
+  display:inline-block;
+  position:relative;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  background:#8C8C8C;
+  -webkit-box-shadow:inset 0 0 0 0 #009EEA;
+  box-shadow:inset 0 0 0 0 #009EEA;
+  border:2px solid #8C8C8C;
+  border-radius:22px;
+  width:40px;
+  height:20px;
+}
+
+div.ui-toggle label div {
+  -webkit-transition:all 200ms ease;
+  transition:all 200ms ease;
+  background:#FFFFFF;
+  width:20px;
+  height:20px;
+  border-radius:10px
+}
+
+div.ui-toggle label:hover, div.ui-toggle label>div:hover {
+  cursor:pointer
+}
+
+div.ui-choose-one label input[type='radio'] {
+  display: none;
+}
+
+div.ui-choose-one label:hover,
+div.ui-choose-one label>img:hover {
+  cursor:pointer
+}
+
+div.ui-choose-one label>img:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+}
+
+div.ui-choose-one label img {
+  margin-right: 10px;
+  background-color: #FAFAFA;
+  border: 2px solid #8C8C8C;
+  border-radius: 5px;
+  float: left;
+}
+
+div.ui-choose-one label input[type='radio']:checked + img {
+  background-color: #FFFFFF;
+  border: 2px solid #009EEA;
+}
+
+div.ui-choose-one label input[type='radio']:checked + img:hover {
+  border: 2px solid #000000;
+}
+
+input[type=radio].ui-radio-choice {
+  height: 24px;
+  width: 24px;
+}
+
+input[type=radio].ui-radio-choice:checked:before {
+  height: 10px;
+  width: 10px;
+  margin: 6px;
+  background-color: #009EEA;
+}
+
+div.ui-choose-radio label {
+  line-height: 30px;
+}
+
+/* PREVIEW BOX */
+.preview-series-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.blfa-preview-box div table {
+  width: 100%;
+}
+
+/* Only show preview box on larger screens */
+@media screen and (max-width: 784px) {
+  .blfa-preview-box {
+    display: none;
+  }
+}
+
+.blfa-preview-box {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 50%;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #8C8C8C;
+  border-radius: 5px;
+  height: 450px;
+  width: 450px;
+  overflow: scroll;
+}
+
+.blfa-preview-heading {
+  text-align: center;
+}
+
+.preview-block-row {
+  text-align: center;
+}
+
+#ab-grid tr,
+#sp-grid tr {
+  vertical-align: middle;
+}
+
+#ab-grid tr td,
+#sp-grid tr td {
+  width: 33%;
+  padding: 5px;
+}
+
+.preview-list-centered, #sp-centered {
+  text-align: center;
+}
+
+.preview-list-block {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.preview-cover-column {
+  text-align: center;
+  width: 30%;
+}
+
+#ab-list-r table tr,
+#ab-list-l table tr,
+#ab-list-a table tr,
+#sp-list-r table tr,
+#sp-list-l table tr,
+#sp-list-a table tr  {
+  padding-bottom: 5px;
+}
+
+.preview-featured-book, .preview-featured-row {
+  text-align: center;
+}
+
+.bp-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.bp-headings div {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.bp-buy-buttons {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bp-buy-button {
+  padding-right: 5px;
+}
+
+.bp-justify {
+  text-align: justify;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.blfa-justify {
+  text-align: justify;
+}
+
+div.bp-layout-centered {
+  clear: both;
+  text-align: center;
+}
+
+div.bp-layout-centered .bp-title {
+  text-align: left;
+}
+
+.bp-layout-centered p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bp-layout-left .bp-images {
+  float: left;
+  margin-right: 30px;
+}
+
+.bp-layout-right .bp-images {
+  float: right;
+  margin-left: 30px;
+}
+/*****/
+
+.blfa-settings-content {
+  display: none;
+}
+
+.blfa-spinner {
+  margin: auto;
+  width: 50%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.series-input-form {
+  margin-top: 100px;
+  background-color: #FAFAFA;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #8C8C8C;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.blfa-series-list {
+  padding-top: 20px;
+}
+
+.series-list-table thead tr th {
+  font-weight: bold;
+}
+
+.retailer-list-table thead tr th {
+  font-weight: bold;
+}
+
+.blfa-check-mark {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #009EEA;
+}
+
+.blfa-check-mark {
+  padding-left: 10px;
+}
+
+.blfa-actions a {
+  padding-right: 10px;
+}
+
+.ui-hidden-input {
+  display: none;
+}
+
+tr.blfa-editing {
+  font-weight: bold;
+}
+
+tr.blfa-deleting {
+  font-style: italic;
+}
+
+.retailers-input-form {
+  margin-top: 100px;
+  background-color: #FAFAFA;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #8C8C8C;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.blfa-retailers-list {
+  padding-top: 20px;
+}
+
+.retailer-icon-column {
+  display: none;
+}
+
+.blfa-retailer-icon, .blfa-media-img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+div.spacer {
+  margin: 5px;
+}
+
+.widefat * {
+  word-wrap: normal !important;
+}
+
+.tablesorter-headerUnSorted:not(.sorter-false) > div, .tablesorter-headerAsc > div, .tablesorter-headerDesc > div {
+  margin-right: 30px;
+}
+
+.tablesorter-headerAsc > div::after {
+  background-image: url('../img/ascending.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  content:"";
+}
+
+.tablesorter-headerUnSorted:not(.sorter-false) > div::after {
+  background-image: url('../img/sortable.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  content:"";
+}
+
+.tablesorter-headerDesc > div::after {
+  background-image: url('../img/descending.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  content:"";
+}
+
+form > img.first,
+form > img.last,
+form > img.next,
+form > img.prev {
+  width: 15px;
+  height: 15px;
+}
+
+/* rows hidden by filtering (needed for child rows) */
+.tablesorter .filtered {
+    display: none;
+}
+
+/* ajax error row */
+.tablesorter .tablesorter-errorRow td {
+    text-align: center;
+    cursor: pointer;
+    background-color: #e6bf99;
+}

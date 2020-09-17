@@ -1,0 +1,17 @@
+{
+    "name": "pluviotech/book-list-for-authors",
+    "description": "Simple utility for authors to list their books on their website including linking to external retailers.",
+    "type": "project",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Krista at PluvioTech, LLC",
+            "email": "krista@pluviotech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {"Inc\\": "./inc"}
+    }
+}

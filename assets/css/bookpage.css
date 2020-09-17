@@ -1,0 +1,107 @@
+/* General Styles */
+.blfa-author {
+  font-style: italic;
+}
+
+a.blfa-retailer-button img {
+  float: left;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+}
+
+.blfa-description-container p {
+  text-align: justify;
+}
+
+/* Center Layout Styles */
+article.blfa-center-layout .post-content .blfa-cover-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+article.blfa-center-layout .post-content .blfa-cover-container .blfa-cover img {
+  display: inline-block;
+}
+
+article.blfa-center-layout .blfa-button-container {
+  text-align: center;
+  clear: both;
+}
+
+article.blfa-center-layout .blfa-buttons {
+  display: inline-block
+}
+
+article.blfa-center-layout .blfa-description-container h3, article.blfa-center-layout .blfa-description-container h4 {
+  text-align: center;
+}
+
+/* Left (With Wrap) Layout Styles*/
+article.blfa-left-layout {
+    clear: both;
+}
+
+article.blfa-left-layout .post-content .blfa-cover-container {
+  float: left;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+article.blfa-left-layout .post-content .blfa-cover-container .blfa-cover img {
+  display: inline-block;
+}
+
+article.blfa-left-layout .blfa-button-container {
+  text-align: center;
+  clear: both;
+}
+
+article.blfa-left-layout .blfa-buttons {
+  display: inline-block;
+}
+
+article.blfa-left-layout .blfa-description-container h3, article.blfa-left-layout .blfa-description-container h4 {
+  clear: none !important;
+}
+
+/* Left (Without Wrap) Layout Styles */
+article.blfa-left-nowrap-layout .blfa-description-container {
+  clear: both;
+}
+
+article.blfa-left-nowrap-layout .post-content .blfa-cover-container img {
+  display: inline-block;
+
+/* Right Layout Styles*/
+article.blfa-right-layout {
+    clear: both;
+}
+
+article.blfa-right-layout .post-content .blfa-cover-container {
+  float: right;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+article.blfa-right-layout .post-content .blfa-cover-container .blfa-cover img {
+  display: inline-block;
+}
+
+article.blfa-right-layout .blfa-button-container {
+  text-align: center;
+  clear: both;
+}
+
+article.blfa-right-layout .blfa-buttons {
+  display: inline-block
+}
+
+article.blfa-right-layout .blfa-description-container h3, .blfa-description-container h4 {
+  clear: none !important;
+}

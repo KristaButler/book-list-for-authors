@@ -1,0 +1,27 @@
+.blfa-links-title {
+  font-size: 125%;
+  padding-top: 1em;
+}
+
+.blfa-links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.blfa-column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  padding-right: 1em;
+}
+
+.blfa-category-container {
+  padding: .5em;
+}
+
+.blfa-links-title {
+  color: black !important;
+}
