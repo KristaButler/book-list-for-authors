@@ -1,7 +1,7 @@
 === Book List for Authors ===
-Contributors: Krista @ Pluvio Tech, LLC
+Contributors: Krista Butler
 Tags: book list, book page, books, author, writer, bookshelf, manage books
-Donate link: http://www.pulviotech.com/plugins/book-list-wp-donate.php
+Donate link: TODO
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
